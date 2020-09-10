@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/01 SequenceList/SequenceList-mian.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/02 SinglelyLinkedList/SinglyLinkedList-main.c" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

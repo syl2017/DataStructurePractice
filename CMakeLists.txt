@@ -3,4 +3,4 @@ project(DataStructure C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DataStructure  "01 SequenceList/SequenceList-mian.c")
+add_executable(DataStructure "02 SinglelyLinkedList/SinglyLinkedList-main.c")

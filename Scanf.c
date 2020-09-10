@@ -27,7 +27,7 @@ int Scanf(FILE *fp, char *format, ...) {
 
     va_start(ap, format);
 
-    for (count = 0, k = 2; k < len; k = k + 2) {
+    for (count = 0, k = 2; k <= len; k = k + 2) {
         while ((tmp = getc(fp)) != EOF) { //跳过所有非西文字符
             if ((tmp >= 0 && tmp <= 127)) {
                 ungetc(tmp, fp);    //遇到首个西文字符，将此西文字符放入输入流
